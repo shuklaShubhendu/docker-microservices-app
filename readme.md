@@ -213,6 +213,6 @@ microservices-app/
 
 ## 📧 Contact
 
-📩 **[Your Name] - [Your Email] (Optional)**
+📩 **Shubhendu Shukla - shuklashubhendu6@gmail.com**
 
 ---
