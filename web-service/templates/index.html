@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Service</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        .info {
+            font-weight: bold;
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello from <span style="color: #3498db;">Web Service</span>!</h1>
+        <p>My Name: <span class="info">{{ name }}</span></p>
+        <p>Roll Number: <span class="info">{{ roll_number }}</span></p>
+        <p>Bio: <span class="info">{{ bio }}</span></p>
+        <p>Container ID: <span class="info">{{ container_id }}</span></p>
+        <p>Current Time: <span class="info">{{ current_time }}</span></p>
+    </div>
+</body>
+</html>
